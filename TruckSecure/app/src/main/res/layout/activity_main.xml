@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="115dp"
+        android:columnCount="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/n1"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/n2"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/n3"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/n4"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/n5"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/n6"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/n7"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/n8"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/n9"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/n0"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/dele"
+            android:text="del" />
+
+        <Button
+            android:id="@+id/clear"
+
+            android:text="clr" />
+
+    </GridLayout>
+
+</RelativeLayout>
